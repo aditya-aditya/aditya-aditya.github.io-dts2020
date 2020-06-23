@@ -1,0 +1,254 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Menu Header */
+header {
+  height: 65px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  background: rgba(217, 217, 217, 0.7);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 7px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color:#2f2e41;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  color: rgba(255, 44, 245, 0.7);
+  transition: all 0.5s;
+}
+
+/* Menu Top Wrapper */
+.top-wrapper {
+    margin-top: 130px;
+}
+
+.top-wrapper.container {
+    position: relative;
+}
+
+.gambar-utama {
+    width: 50%;
+    display: inline-block;
+}
+
+.gambar-utama img {
+    width: 100%;
+}
+
+.text {
+    width: 40%;
+    color: #2C2C54;
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.text h2{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+.text p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.gp:hover {
+  -webkit-transform: translateY(-3px);
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); 
+}
+
+
+/* Menu Fitur */
+.header {
+  margin-top: 50px;
+  background-color: #d9d9d9;
+  height: 60px;
+  width: 100%;
+}
+
+.header-logo{
+  font-size: 30px;
+  color: #000;
+  float: center;
+  padding: 5px 40px;
+  text-align: center;
+}
+
+.fitur {
+  height:350px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-size: 1500px;
+  text-align: center;
+}
+
+.fitur-menu {
+  float: left;
+  width: 25%;
+  height: 350px;
+  margin-bottom: 45px;
+  margin-top: 40px;
+}
+
+.fitur-icon {
+  padding:auto;
+}
+
+.fitur-icon img {
+  margin-top:10px; 
+  height: 150px;
+  width: 150px;
+}
+
+.title {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  height: 7px;
+}
+
+.title-contents {
+  font-family: "noto sans";
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #black;
+}
+.fitur-menu:hover {
+  -webkit-transform: translateY(-5px) scale(1.05);
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3); 
+}
+
+/* Menu Tentang */
+.header-bottom {
+  margin-top: 50px;
+  background-color: #d9d9d9;
+  height: 60px;
+  width: 100%;
+}
+
+.header-logo-bottom {
+  font-size: 30px;
+  color: #000;
+  float: center;
+  padding: 5px 40px;
+  text-align: center;
+}
+
+.bottom-wrapper {
+    margin-top: 50px;
+}
+
+.bottom-wrapper.container {
+    position: relative;
+}
+
+.gambar-second {
+    width: 35%;
+    display: inline-block;
+}
+
+.gambar-second img {
+    width: 100%;
+}
+
+.text-bottom {
+    width: 40%;
+    color: #2C2C54;
+    display: inline-block;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.text-bottom h2{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+.text-bottom p{
+    margin: 0;
+    font-size: 15px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
