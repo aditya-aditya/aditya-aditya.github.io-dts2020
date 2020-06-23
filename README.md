@@ -1,1 +1,1 @@
-# aditya-aditya.github.io-dts2020
+# dts2020.github.io
