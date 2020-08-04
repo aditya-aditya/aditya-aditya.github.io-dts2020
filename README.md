@@ -1,1 +1,1 @@
-# dts2020.github.io
+# https://aditya-aditya.github.io/dts2020/
